@@ -1,0 +1,73 @@
+* {
+  border: 1.5px solid black;
+}
+body {
+  margin: 0px 10px;
+}
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+}
+.logo {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+}
+.elogo {
+  display: flex;
+  /* margin-top: 18px; */
+  width: 38px;
+  height: 38px;
+  background: #f77e53;
+  color: white;
+  border-radius: 19px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 28px;
+}
+
+.edu {
+  font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: calc(30%);
+  align-items: center;
+}
+h4 {
+  font-family: Impact, Haettenschweiler, "inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.01em;
+}
+.signin {
+  display: flex;
+  background-color: skyblue;
+  width: 125px;
+  height: 40px;
+  font-family: "Inter";
+  font-size: 20px;
+
+  color: rgb(89, 89, 219);
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 10px;
+}
+.menuc:hover,
+.signin:hover {
+  font-weight: 600;
+}
