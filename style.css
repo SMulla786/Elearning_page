@@ -14,7 +14,7 @@ body {
   display: flex;
   width: 100%;
   justify-content: space-between;
-  flex-direction: row;
+
   align-items: center;
   padding: 3px 5px;
 }
@@ -46,7 +46,7 @@ body {
 }
 .menu {
   display: flex;
-  flex-direction: row;
+
   justify-content: space-around;
   width: calc(30%);
   align-items: center;
@@ -104,7 +104,6 @@ h4 {
   justify-content: left;
   justify-content: space-between;
   width: 400px;
-  height: 500px;
 }
 
 .seconds.image {
@@ -113,4 +112,9 @@ h4 {
   height: 560px;
   background-image: url(man_potrait.jpeg);
   background-size: 452px;
+}
+@media only screen and (max-width: 600px) {
+  * {
+    flex-direction: column;
+  }
 }
