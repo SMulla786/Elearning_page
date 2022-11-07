@@ -108,7 +108,7 @@ h4 {
 
 .seconds.image {
   display: flex;
-  width: 452px;
+  width: 40%;
   height: 560px;
   background-image: url(man_potrait.jpeg);
   background-size: 452px;
@@ -116,5 +116,8 @@ h4 {
 @media only screen and (max-width: 600px) {
   * {
     flex-direction: column;
+  }
+  body {
+    margin: 2%;
   }
 }
