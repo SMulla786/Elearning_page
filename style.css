@@ -2,15 +2,21 @@
   border: 1.5px solid black;
 } */
 body {
-  margin: 0px 10px;
+  padding: 10px;
+  background-color: rgb(247, 247, 247);
+}
+.fscreen {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px;
 }
 .header {
   display: flex;
   width: 100%;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-direction: row;
   align-items: center;
-  margin: 0;
+  padding: 3px 5px;
 }
 .logo {
   display: inline-flex;
@@ -35,13 +41,13 @@ body {
   font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 26px;
   line-height: 32px;
 }
 .menu {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   width: calc(30%);
   align-items: center;
 }
@@ -49,8 +55,8 @@ h4 {
   font-family: Impact, Haettenschweiler, "inter", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
-  line-height: 18px;
+  font-size: 18px;
+
   letter-spacing: -0.01em;
 }
 .signin {
@@ -60,14 +66,51 @@ h4 {
   height: 40px;
   font-family: "Inter";
   font-size: 20px;
-
   color: rgb(89, 89, 219);
   align-items: center;
   justify-content: center;
-
   border-radius: 10px;
+}
+.menuc {
+  font-family: "Inter";
+  font-size: 20px;
 }
 .menuc:hover,
 .signin:hover {
   font-weight: 600;
+}
+.second {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.get_started {
+  display: flex;
+  border-radius: 20px;
+  width: 200px;
+  justify-content: center;
+  height: 62px;
+  align-items: center;
+  background-color: #f77e53;
+  color: white;
+  font-size: 22px;
+}
+.seconds.text {
+  /* portrait-cheerful-young-man-smiling-pointing-finger-up-removebg-preview */
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  justify-content: space-between;
+  width: 400px;
+  height: 500px;
+}
+
+.seconds.image {
+  display: flex;
+  width: 452px;
+  height: 560px;
+  background-image: url(man_potrait.jpeg);
+  background-size: 452px;
 }
