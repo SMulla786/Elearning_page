@@ -3,7 +3,8 @@
 } */
 p,
 label,
-li {
+li,
+.text h3 {
   font-family: "Gill Sans", sans-serif;
   color: rgb(114, 115, 134);
 }
@@ -31,6 +32,7 @@ body {
   display: inline-flex;
   flex-direction: row;
   align-items: center;
+  gap: 5px;
 }
 .elogo {
   display: flex;
@@ -354,6 +356,9 @@ h2 {
 .profile-info * {
   margin: 0;
 }
+.subscription {
+  margin-bottom: 100px;
+}
 .plans {
   display: flex;
   width: 100%;
@@ -450,10 +455,58 @@ ul {
   color: #f77e53;
 }
 
+.end-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+.end-footer .end-logo {
+  display: flex;
+  flex-direction: column;
+}
+.end-footer .about {
+  display: flex;
+  flex-direction: column;
+}
+.end-footer p {
+  margin: 10px 0px;
+}
+.end-footer .support {
+  display: flex;
+  flex-direction: column;
+}
+.end-footer .get {
+  display: flex;
+  flex-direction: column;
+}
+.playstore {
+  border: 2px solid rgb(114, 115, 134);
+  display: flex;
+  height: 40px;
+  gap: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 10px 0px;
+}
+.playstore .text {
+  display: flex;
+  flex-direction: column;
+}
+.apple {
+  border: 2px solid rgb(114, 115, 134);
+  display: flex;
+  height: 40px;
+  gap: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 10px 0px;
+}
 @media only screen and (max-width: 900px) {
   * {
     flex-direction: column;
   }
+
   .menu {
     flex-direction: row;
     justify-content: space-between;
