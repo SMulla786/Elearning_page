@@ -3,6 +3,7 @@
 } */
 p {
   font-family: "Gill Sans", sans-serif;
+  color: rgb(114, 115, 134);
 }
 body {
   background-color: rgb(247, 247, 247);
@@ -206,9 +207,36 @@ h4 {
   margin-left: 28px;
 }
 .univ {
-  width: 180px;
+  width: 20%;
   height: 53px;
 }
+/* cources shopping tab */
+.schoolc-shopping {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.schoolc-shopping .header {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+}
+.schoolc-shopping .header h1 {
+  font-family: "Gill Sans", sans-serif;
+}
+.view-all-cources {
+  display: flex;
+  border: 2px solid #2076ff;
+  color: #2076ff;
+  font-size: 18;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 60px;
+  margin-right: 40px;
+}
+
 @media only screen and (max-width: 900px) {
   * {
     flex-direction: column;
