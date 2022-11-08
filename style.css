@@ -1,7 +1,8 @@
 /* * {
   border: 1.5px solid black;
 } */
-p {
+p,
+label {
   font-family: "Gill Sans", sans-serif;
   color: rgb(114, 115, 134);
 }
@@ -215,15 +216,18 @@ h4 {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  flex-direction: column;
 }
 .schoolc-shopping .header {
   display: flex;
   justify-content: space-between;
   margin: 40px;
 }
-.schoolc-shopping .header h1 {
+.schoolc-shopping .header h1,
+h3 {
   font-family: "Gill Sans", sans-serif;
 }
+
 .view-all-cources {
   display: flex;
   border: 2px solid #2076ff;
@@ -236,7 +240,48 @@ h4 {
   height: 60px;
   margin-right: 40px;
 }
+.cources {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
 
+.cource {
+  display: flex;
+  width: 270px;
+  padding: 5px;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.cource:first-child {
+  margin-left: -90px;
+}
+.cource img {
+  width: 240px;
+  height: 165px;
+  align-self: center;
+}
+.cource .logo-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.cart {
+  display: flex;
+  width: 240px;
+  height: 40px;
+  align-self: center;
+  border: 1.5px solid #2076ff;
+  border-radius: 7px;
+  align-items: center;
+  justify-content: center;
+}
+.cart:hover {
+  color: white;
+  background-color: #2076ff;
+  content: "add to cart";
+}
 @media only screen and (max-width: 900px) {
   * {
     flex-direction: column;
