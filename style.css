@@ -6,6 +6,9 @@ label {
   font-family: "Gill Sans", sans-serif;
   color: rgb(114, 115, 134);
 }
+div {
+  font-family: "Gill Sans", sans-serif;
+}
 body {
   background-color: rgb(247, 247, 247);
   margin-left: 40px;
@@ -217,6 +220,7 @@ h4 {
   align-items: center;
   justify-content: space-evenly;
   flex-direction: column;
+  margin-bottom: 200px;
 }
 .schoolc-shopping .header {
   display: flex;
@@ -282,6 +286,72 @@ h3 {
   background-color: #2076ff;
   content: "add to cart";
 }
+.transform {
+  display: flex;
+  margin-bottom: 100px;
+}
+.transform .text {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  /* border: 1.5px solid #2076ff; */
+  gap: 10px;
+}
+.transform .text p {
+  max-width: 447px;
+}
+.transform .video {
+  display: flex;
+  border: 1.5px solid #f21414;
+  background-color: #f6f5fa;
+}
+h2 {
+  font-family: "Gill Sans", sans-serif;
+  max-width: 476px;
+}
+.transform h2 {
+  font-size: 44;
+}
+.transform img {
+  width: 530px;
+  height: 360px;
+}
+.transform .video * {
+  border: 1.5px solid #2076ff;
+}
+.arrows i {
+  width: 30px;
+}
+.life {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+.life .header {
+  display: flex;
+  width: 90%;
+}
+.reviews {
+  display: flex;
+
+  justify-content: space-between;
+}
+.review h2 {
+  font-family: "Gill Sans", sans-serif;
+  color: rgb(114, 115, 134);
+  font-size: 22px;
+}
+.profile {
+  display: flex;
+  gap: 15px;
+}
+.profile-info {
+  display: flex;
+  flex-direction: column;
+}
+.profile-info * {
+  margin: 0;
+}
 @media only screen and (max-width: 900px) {
   * {
     flex-direction: column;
@@ -294,5 +364,8 @@ h3 {
   }
   body {
     margin-left: 15px;
+  }
+  .cource:first-child {
+    margin-left: 10px;
   }
 }
