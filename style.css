@@ -340,7 +340,7 @@ h2 {
 .reviews {
   display: flex;
 
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .review h2 {
   font-family: "Gill Sans", sans-serif;
@@ -350,6 +350,9 @@ h2 {
 .profile {
   display: flex;
   gap: 15px;
+}
+.review p {
+  width: 449px;
 }
 .profile-info {
   display: flex;
@@ -522,8 +525,11 @@ ul {
   * {
     flex-direction: column;
     align-self: center;
+    margin-left: 10px;
   }
-
+  .review p {
+    width: 100%;
+  }
   .menu {
     flex-direction: row;
     justify-content: space-around;
